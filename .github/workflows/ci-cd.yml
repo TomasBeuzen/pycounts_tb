@@ -31,7 +31,7 @@ jobs:
     - uses: codecov/codecov-action@v2
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
-        file: ./coverage.xml    # coverage report
+        files: ./coverage.xml    # coverage report
         fail_ci_if_error: true  # terminate workflow if an error occurs
     # Step 8. Build documentation
     - name: Build documentation
