@@ -26,11 +26,10 @@ jobs:
       run: poetry install
     # Step 6. Run tests for pycounts
     - name: Test with pytest
-      run: poetry run pytest tests/ --cov=pycounts --cov-report=xml
+      run: poetry run pytest tests/ --cov=pycounts_tb --cov-report=xml
     # Step 7. Use Codecov to track coverage
     - uses: codecov/codecov-action@v2
       with:
-        token: ${{ secrets.CODECOV_TOKEN }}
         files: ./coverage.xml    # coverage report
         fail_ci_if_error: true  # terminate workflow if an error occurs
     # Step 8. Build documentation
