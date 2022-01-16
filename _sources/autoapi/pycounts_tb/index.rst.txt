@@ -1,0 +1,34 @@
+:py:mod:`pycounts_tb`
+=====================
+
+.. py:module:: pycounts_tb
+
+
+Subpackages
+-----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   data/index.rst
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   datasets/index.rst
+   plotting/index.rst
+   pycounts_tb/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   
+
+   
+

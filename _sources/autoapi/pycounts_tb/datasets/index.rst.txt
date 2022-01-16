@@ -1,0 +1,31 @@
+:py:mod:`pycounts_tb.datasets`
+==============================
+
+.. py:module:: pycounts_tb.datasets
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   pycounts_tb.datasets.get_flatland
+
+
+
+.. py:function:: get_flatland()
+
+   Get path to example "Flatland" [1]_ text file.
+
+   :returns: Path to file.
+   :rtype: pathlib.PosixPath
+
+   .. rubric:: References
+
+   .. [1] E. A. Abbott, "Flatland", Seeley & Co., 1884.
+
+
