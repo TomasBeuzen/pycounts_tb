@@ -14,15 +14,15 @@ jobs:
     
     steps:
     - name: Set up Python 3.9
-    - uses: actions/setup-python@v2
+      uses: actions/setup-python@v2
       with:
         python-version: 3.9
     
     - name: Check-out repository so we can access its contents
-    - uses: actions/checkout@v2
+      uses: actions/checkout@v2
 
     - name: Install poetry
-    - uses: snok/install-poetry@v1
+      uses: snok/install-poetry@v1
 
     - name: Install package
       run: poetry install
@@ -31,7 +31,7 @@ jobs:
       run: poetry run pytest tests/ --cov=pycounts_tb --cov-report=xml
 
     - name: Use Codecov to track coverage
-    - uses: codecov/codecov-action@v2
+      uses: codecov/codecov-action@v2
       with:
         files: ./coverage.xml   # coverage report
         fail_ci_if_error: true  # terminate workflow if there's an error
