@@ -83,7 +83,7 @@ jobs:
           pip install \
           --index-url https://test.pypi.org/simple/ \
           --extra-index-url https://pypi.org/simple \
-          {{ cookiecutter.package_name }}
+          pycounts_tb
 
     - name: Publish to TestPyPI
       uses: pypa/gh-action-pypi-publish@release/v1
