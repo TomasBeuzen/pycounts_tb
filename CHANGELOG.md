@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.5.0 (2022-01-24)
+### Feature
+* Update CI/CD workflow ([`00edf14`](https://github.com/TomasBeuzen/pycounts_tb/commit/00edf14bf01d2716761fde6ec6304550e0a7f160))
+
 ## v0.4.0 (2021-12-06)
 ### Feature
 * Add CI/CD workflow ([`a8a6ee8`](https://github.com/TomasBeuzen/pycounts_tb/commit/a8a6ee8b93b4766e0b3756f68bf5f07359887276))
