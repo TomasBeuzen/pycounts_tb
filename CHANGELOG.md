@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.7.1 (2022-01-26)
+
+
 ## v0.7.0 (2022-01-24)
 ### Feature
 * Dont terminate on codecov fail ([`822a15d`](https://github.com/TomasBeuzen/pycounts_tb/commit/822a15dde84c366908e29f0803c1eac12f462871))
