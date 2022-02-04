@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pycounts_tb"
-version = "0.7.6"
+version = "0.7.7"
 description = "Calculate words  in a text file!"
 authors = ["Tomas Beuzen"]
 license = "MIT"
